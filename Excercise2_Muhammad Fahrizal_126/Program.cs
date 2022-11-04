@@ -15,6 +15,10 @@ namespace Excercise2_Muhammad_Fahrizal_126
         //Get the number of elements to store in the array
         int i;
 
+        public void input()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
