@@ -26,6 +26,13 @@ namespace Excercise2_Muhammad_Fahrizal_126
                     break;
                 else
                     Console.WriteLine("\n Masukan Panjang Array Minimal 1 dan Maksimum 20 elemen.\n");
+
+                for (i = 0; i < n; i++)
+                {
+                    Console.Write("<" + (i + 1) + ">");
+                    string s1 = Console.ReadLine();
+                    fahrizal[i] = Int32.Parse(s1);
+                }
             }
         }
         static void Main(string[] args)
