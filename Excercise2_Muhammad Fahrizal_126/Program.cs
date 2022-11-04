@@ -26,7 +26,7 @@ namespace Excercise2_Muhammad_Fahrizal_126
                     break;
                 else
                     Console.WriteLine("\n Masukan Panjang Array Minimal 1 dan Maksimum 20 elemen.\n");
-
+            }
                 Console.WriteLine("");
                 Console.WriteLine(".......................");
                 Console.WriteLine("Masukkan element Array");
@@ -37,7 +37,7 @@ namespace Excercise2_Muhammad_Fahrizal_126
                     string s1 = Console.ReadLine();
                     n = Int32.Parse(s1);
                 }
-            }
+            
         }
 
         public void InsertionSort()
