@@ -35,7 +35,7 @@ namespace Excercise2_Muhammad_Fahrizal_126
                 {
                     Console.Write("<" + (i + 1) + ">");
                     string s1 = Console.ReadLine();
-                    n = Int32.Parse(s1);
+                    fahrizal[i] = Int32.Parse(s1);
                 }
             
         }
