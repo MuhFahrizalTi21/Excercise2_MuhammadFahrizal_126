@@ -19,7 +19,13 @@ namespace Excercise2_Muhammad_Fahrizal_126
         {
             while (true)
             {
-
+                Console.WriteLine("Masukkan panjang array : ");
+                string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if ((n > 0) && (n <= 20))
+                    break;
+                else
+                    Console.WriteLine("\n Masukan Panjang Array Minimal 1 dan Maksimum 20 elemen.\n");
             }
         }
         static void Main(string[] args)
