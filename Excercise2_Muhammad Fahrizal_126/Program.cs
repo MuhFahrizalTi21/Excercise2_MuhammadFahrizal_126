@@ -50,10 +50,22 @@ namespace Excercise2_Muhammad_Fahrizal_126
                 }
                 fahrizal[j + 1] = temp;
             }
-
+        }
+        public void display()
+        {
+            //display the shorted array
+            Console.WriteLine("");
+            Console.WriteLine(".......................");
+            Console.WriteLine("Shorted Array Elements");
+            Console.WriteLine(".......................");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(fahrizal[j]);
+            }
         }
         static void Main(string[] args)
         {
+
         }
     }
 }
