@@ -19,7 +19,7 @@ namespace Excercise2_Muhammad_Fahrizal_126
         {
             while (true)
             {
-                Console.WriteLine("Masukkan panjang array : ");
+                Console.Write("Masukkan panjang array : ");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if ((n > 0) && (n <= 20))
@@ -27,6 +27,10 @@ namespace Excercise2_Muhammad_Fahrizal_126
                 else
                     Console.WriteLine("\n Masukan Panjang Array Minimal 1 dan Maksimum 20 elemen.\n");
 
+                Console.WriteLine("");
+                Console.WriteLine(".......................");
+                Console.WriteLine("Masukkan element Array");
+                Console.WriteLine(".......................");
                 for (i = 0; i < n; i++)
                 {
                     Console.Write("<" + (i + 1) + ">");
@@ -71,8 +75,8 @@ namespace Excercise2_Muhammad_Fahrizal_126
             {
                 Console.WriteLine("Menu Option");
                 Console.WriteLine("=================");
-                Console.WriteLine("1. Linear Search");
-                Console.WriteLine("2. Binary Search");
+                Console.WriteLine("1. Insertion Sort");
+                Console.WriteLine("2. Merge Sort");
                 Console.WriteLine("3. Exit");
                 Console.WriteLine("Enter your choice (1,2,3) : ");
                 PilihanMenu = Convert.ToInt32(Console.ReadLine());
