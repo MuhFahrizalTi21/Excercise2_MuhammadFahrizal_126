@@ -12,6 +12,8 @@ namespace Excercise2_Muhammad_Fahrizal_126
         int[] fahrizal = new int[20];
         // Number of elements in the array 
         int n;
+        //Get the number of elements to store in the array
+        int i;
 
         static void Main(string[] args)
         {
