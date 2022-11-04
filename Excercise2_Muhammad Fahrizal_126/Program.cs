@@ -35,6 +35,23 @@ namespace Excercise2_Muhammad_Fahrizal_126
                 }
             }
         }
+
+        public void InsertionSort()
+        {
+            int j, temp;
+            for (int i = 1; i <= fahrizal.Length - 1; i++)
+            {
+                temp = fahrizal[i];
+                j = i - 1;
+                while (j >= 0 && fahrizal[j] > temp)
+                {
+                    fahrizal[j + 1] = fahrizal[j];
+                    j--;
+                }
+                fahrizal[j + 1] = temp;
+            }
+
+        }
         static void Main(string[] args)
         {
         }
