@@ -65,7 +65,40 @@ namespace Excercise2_Muhammad_Fahrizal_126
         }
         static void Main(string[] args)
         {
+            Program myList = new Program();
+            int PilihanMenu;
+            do
+            {
+                Console.WriteLine("Menu Option");
+                Console.WriteLine("=================");
+                Console.WriteLine("1. Linear Search");
+                Console.WriteLine("2. Binary Search");
+                Console.WriteLine("3. Exit");
+                Console.WriteLine("Enter your choice (1,2,3) : ");
+                PilihanMenu = Convert.ToInt32(Console.ReadLine());
 
+                switch (PilihanMenu)
+                {
+                    case 1:
+                        Console.WriteLine("");
+                        Console.WriteLine("................");
+                        Console.WriteLine("Insertion Sort");
+                        Console.WriteLine("................");
+                        myList.input();
+                        myList.InsertionSort();
+                        myList.display();
+                        break;
+                    case 2:
+                        Console.WriteLine("Exit.");
+                        break;
+                    default:
+                        Console.WriteLine("Error");
+                        break;
+                }
+                //to exit from the console
+                Console.WriteLine("\n\nPress Return to exit.");
+                Console.ReadLine();
+            } while (PilihanMenu != 3);
         }
     }
 }
