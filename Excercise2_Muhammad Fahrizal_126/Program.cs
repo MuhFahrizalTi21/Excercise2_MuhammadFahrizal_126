@@ -17,7 +17,10 @@ namespace Excercise2_Muhammad_Fahrizal_126
 
         public void input()
         {
+            while (true)
+            {
 
+            }
         }
         static void Main(string[] args)
         {
