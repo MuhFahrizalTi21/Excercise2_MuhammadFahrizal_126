@@ -35,7 +35,7 @@ namespace Excercise2_Muhammad_Fahrizal_126
                 {
                     Console.Write("<" + (i + 1) + ">");
                     string s1 = Console.ReadLine();
-                    fahrizal[i] = Int32.Parse(s1);
+                    n = Int32.Parse(s1);
                 }
             }
         }
@@ -53,18 +53,6 @@ namespace Excercise2_Muhammad_Fahrizal_126
                     j--;
                 }
                 fahrizal[j + 1] = temp;
-            }
-        }
-        public void display()
-        {
-            //display the shorted array
-            Console.WriteLine("");
-            Console.WriteLine(".......................");
-            Console.WriteLine("Shorted Array Elements");
-            Console.WriteLine(".......................");
-            for (int j = 0; j < n; j++)
-            {
-                Console.WriteLine(fahrizal[j]);
             }
         }
         static void Main(string[] args)
@@ -90,7 +78,6 @@ namespace Excercise2_Muhammad_Fahrizal_126
                         Console.WriteLine("................");
                         myList.input();
                         myList.InsertionSort();
-                        myList.display();
                         break;
                     case 2:
                         Console.WriteLine("Exit.");
